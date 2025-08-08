@@ -21,7 +21,7 @@ My graduate studies research was at the intersection of causal inference and hum
   
 ### Professional Experience
 ---
-Recently, I have worked professionally as a Machine Learning Engineer at Pixite Inc. (2024 - 2025), Data Engineer at EveryRate (2024-2024) and Generative AI Engineer consultant at Capgemini (2023-2024). 
+Recently, I have worked professionally as a Machine Learning Engineer at [Pixite Inc.](https://pixiteapps.com/) (2024 - 2025), Data Engineer at [EveryRate](http://everyrate.ca/) (2024-2024) and Generative AI Engineer consultant at [Capgemini](https://www.capgemini.com/ca-en/) (2023-2024). 
 
 In the past, I taught Python and data science with the Data Scientists Network (DSN) and Tuteria Limited (2018 - 2021), and founded Karaam Analytics Limited (2021) to continue these efforts.
 
