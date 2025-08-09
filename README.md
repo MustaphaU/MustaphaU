@@ -1,5 +1,5 @@
 ## Hi there.  
-My older github is: https://www.github.com/TuringComplete
+My older github is: https://github.com/TuringNPcomplete
 
 ### About Me
 ---
