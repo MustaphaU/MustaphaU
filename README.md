@@ -13,9 +13,8 @@ My graduate studies research was at the intersection of causal inference and hum
 
   Thesis: [Remote Medical Diagnosis in Virtual Reality: A mixed-methods Approach to Understanding the Perceptions of Patients and Physicians](https://uwspace.uwaterloo.ca/items/ed73fad6-81d0-447d-b3ac-153c3e103fba). 
 
-  ## Relevant Coursework and project papers:
-  1. Graphical Deeplearning
-
+  ## Relevant Coursework:
+  1. Graphical Deeplearning  
   2. Time series analysis
   3. Information Visualization for AI Explainability
   4. Data Structures in Health Informatics.
