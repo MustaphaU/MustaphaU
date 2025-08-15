@@ -25,7 +25,7 @@ Recently, I have worked professionally as a Machine Learning Engineer at [Pixite
 
 In the past, I taught Python and data science with the Data Scientists Network (DSN) and Tuteria Limited (2018 - 2021), and founded Karaam Analytics Limited (2020) to continue these efforts.
 
-Please see my [RESUME]([https://drive.google.com/file/d/1SBzwhk1oQbS0Cv1iioX38TSOhjd3GTLS/view?usp=sharing](https://drive.google.com/file/d/19r3WPnh_waFs7Pzri67JgnmwdGaRl5X3/view?usp=sharing) for more details.
+Please see my [RESUME]([https://drive.google.com/file/d/1SBzwhk1oQbS0Cv1iioX38TSOhjd3GTLS/view?usp=sharing](https://drive.google.com/file/d/19r3WPnh_waFs7Pzri67JgnmwdGaRl5X3/view?usp=sharing)) for more details.
 
 
 
