@@ -11,7 +11,8 @@ My graduate studies research was at the intersection of causal inference and hum
 ---
 * Master of Applied Science (MASc.) in Systems Design Engineering, University of Waterloo (2022 - 2024)
 
-  Thesis: [Remote Medical Diagnosis in Virtual Reality: A mixed-methods Approach to Understanding the Perceptions of Patients and Physicians](https://uwspace.uwaterloo.ca/items/ed73fad6-81d0-447d-b3ac-153c3e103fba). 
+  Thesis: [Remote Medical Diagnosis in Virtual Reality: A mixed-methods Approach to Understanding the Perceptions of Patients and Physicians](https://uwspace.uwaterloo.ca/items/ed73fad6-81d0-447d-b3ac-153c3e103fba).
+  Relevant skills: Causal Inference, Bayesian Modeling, Beta regression, and Factor analysis
 
   ## Relevant Coursework:
   1. Graphical Deeplearning  
