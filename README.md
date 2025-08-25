@@ -26,7 +26,7 @@ Recently, I have worked professionally as a Machine Learning Engineer at [Pixite
 
 In the past, I taught Python and data science with the Data Scientists Network (DSN), and founded Karaam Analytics Limited to continue these efforts.
 
-Get in touch: maito:mustaphaunubi@gmail.com.
+Get in touch: mustaphaunubi@gmail.com.
 
 
 
