@@ -1,7 +1,19 @@
 ## Hi there.  
-### Recent project:
+### Recent projects:
 1. Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service
+   Towards Data Science Publication:
+  ``` @article{momoh2026multistage,
+  title={Deploying a Multistage Multimodal Recommender System on Amazon Elastic Kubernetes Service},
+  author={Momoh, Mustapha Unubi},
+  journal={Towards Data Science},
+  year={2026},
+  month={May},
+  url={https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations}
+}
+```
    ![Model Serving Pipeline](https://github.com/MustaphaU/Multistage-Multimodal-Recommender-System-on-Amazon-EKS-with-NVIDIA-Merlin/blob/main/static/Model_serving.png)
+   Figure 1: The model serving pipeline
+   
 <!---
 ### About Me
 ---
