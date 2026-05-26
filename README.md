@@ -1,5 +1,7 @@
 ## Hi there.  
-My older github is: https://github.com/TuringNPcomplete
+### Recent project:
+1. Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service
+   ![Model Serving Pipeline](https://github.com/MustaphaU/Multistage-Multimodal-Recommender-System-on-Amazon-EKS-with-NVIDIA-Merlin/blob/main/static/Model_serving.png)
 <!---
 ### About Me
 ---
