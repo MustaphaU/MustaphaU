@@ -2,7 +2,8 @@
 ### Recent projects:
 1. Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service
    Towards Data Science Publication:
-  ``` @article{momoh2026multistage,
+  ```bibtex
+@article{momoh2026multistage,
   title={Deploying a Multistage Multimodal Recommender System on Amazon Elastic Kubernetes Service},
   author={Momoh, Mustapha Unubi},
   journal={Towards Data Science},
