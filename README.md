@@ -1,12 +1,12 @@
 ## Hi there.  
 ### Recent publications/projects:
-1. Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service
-   Towards Data Science Publication:
+#### 1. [Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service](https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations)
+   **Towards Data Science Publication**:
   ```bibtex
 @article{momoh2026multistage,
   title={Deploying a Multistage Multimodal Recommender System on Amazon Elastic Kubernetes Service},
   author={Momoh, Mustapha Unubi},
-  journal={Towards Data Science},
+  platform={Towards Data Science},
   year={2026},
   month={May},
   url={https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations}
@@ -14,7 +14,20 @@
 ```
    ![Model Serving Pipeline](https://github.com/MustaphaU/Multistage-Multimodal-Recommender-System-on-Amazon-EKS-with-NVIDIA-Merlin/blob/main/static/Model_serving.png)
    Figure 1: The model serving pipeline
-   
+
+#### 2. Deploying a Ranking only recommender system based on Deep Cross Network (DCN) with AUC based drift triggered fine-tuning.
+   **Medium Article**:
+   This project combines the 
+   ```bibtext
+   @article{momoh2026continuous,
+  title={Building a single-stage Recommender System with Continuous Retraining on Amazon EKS with NVIDIA Merlin, HugeCTR, NVIDIA Triton Inference Server, and Kubeflow Pipelines},
+  author={Momoh, Mustapha Unubi},
+  platform={Medium},
+  year={2026},
+  month={March},
+  url={https://mustaphaunubi.medium.com/building-a-recommender-system-with-continuous-retraining-on-amazon-eks-with-nvidia-merlin-hugectr-5b734c71bbc5}
+}
+   ```
 <!---
 ### About Me
 ---
