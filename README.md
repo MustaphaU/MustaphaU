@@ -1,7 +1,7 @@
 ## Hi there.  
-### Recent publications/projects:
+### Technical Articles & Projects:
 #### 1. [Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service](https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations)
-   **Towards Data Science Publication**:
+   **Towards Data Science Publication**: https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations
   ```bibtex
 @article{momoh2026multistage,
   title={Deploying a Multistage Multimodal Recommender System on Amazon Elastic Kubernetes Service},
@@ -16,8 +16,8 @@
    Figure 1: The model serving pipeline
 
 #### 2. Deploying a Ranking only recommender system based on Deep Cross Network (DCN) with AUC based drift triggered fine-tuning.
-   **Medium Article**:
-   This project combines the 
+   **Medium Article**: https://mustaphaunubi.medium.com/building-a-recommender-system-with-continuous-retraining-on-amazon-eks-with-nvidia-merlin-hugectr-5b734c71bbc5
+   In this project, the DCN based recommendation model is trained on a subset of the Criteo 1TB logs dataset to predict Click Through Rates (CTR). The system includes a monitoring component that watches the system for performance drift and triggers incremental training run once drift is detected. The NVIDIA Triton Inference Server is autoscaled based on a custom latency metric via two options: Kubernetes HPA & Karpenter OR Kubernetes HPA & Cluster Autoscaler. 
    ```bibtext
    @article{momoh2026continuous,
   title={Building a single-stage Recommender System with Continuous Retraining on Amazon EKS with NVIDIA Merlin, HugeCTR, NVIDIA Triton Inference Server, and Kubeflow Pipelines},
