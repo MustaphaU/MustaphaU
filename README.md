@@ -1,5 +1,5 @@
 ## Hi there.  
-### Recent projects:
+### Recent publications/projects:
 1. Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service
    Towards Data Science Publication:
   ```bibtex
