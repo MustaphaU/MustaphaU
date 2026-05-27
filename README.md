@@ -1,11 +1,12 @@
 ### Technical Articles & Projects:
-#### 1. Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service
+#### 1. *Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service*
    **Towards Data Science Post**: https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations  
    
    **Code**: https://github.com/MustaphaU/Multistage-Multimodal-Recommender-System-on-Amazon-EKS-with-NVIDIA-Merlin  
    
    ![Model Serving Pipeline](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Blank%20document%20-%20Page%2010%20(4).png)
-   Figure 1: The model serving pipeline  
+   Figure 1: The model serving pipeline   
+   
 This project presents a multistage multimodal recommender system built and deployed on Amazon Elastic Kubernetes Service. It features online and offline feature stores backed by Athena+S3 and Valkey (Redis) respectively. User cold-start is managed via Feature masking, context-aware retrieval & ranking, and near real-time personalization with online feature updates. The system also ingests multimodal item features which can improve the content based signal and item cold-starts. Recently interacted items are filtered using a Valkey (Redis) backed Bloom filter.
   ```bibtex
 @article{momoh2026multistage,
@@ -20,7 +21,7 @@ This project presents a multistage multimodal recommender system built and deplo
 The system is operationalized with Kubeflow pipelines. One pipeline orchestrates the initial feature setup, training the models, and deploying the NVIDIA Triton Inference server. The second pipeline manages the periodic incremental fine-tuning of the query tower and the ranker.  
 ![The MLOps architecture](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Blank%20document%20-%20Page%209%20(11).png)
 
-#### 2. Deploying a Ranking only recommender system based on Deep Cross Network (DCN) with AUC based drift triggered fine-tuning.
+#### 2. *Deploying a Ranking only recommender system based on Deep Cross Network (DCN) with AUC based drift triggered fine-tuning.*
    **Medium Article**: https://mustaphaunubi.medium.com/building-a-recommender-system-with-continuous-retraining-on-amazon-eks-with-nvidia-merlin-hugectr-5b734c71bbc5  
    
    **Code**: https://github.com/MustaphaU/Merlin-RecSys-MLOps-on-AWS  
