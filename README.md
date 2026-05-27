@@ -27,6 +27,9 @@ Figure 2: MLOps architecture
    
    **Code**: https://github.com/MustaphaU/Merlin-RecSys-MLOps-on-AWS  
 
+   ![MLOps]([https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Blank%20document%20-%20Page%2010%20(4).png](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/arch___.png.png))
+   Figure 1: Ads-ranking MLOps with monitoring component for drift detection and auto-retraining 
+
 In this project, the DCN based recommendation model is trained on a subset of the Criteo 1TB logs dataset to predict Click Through Rates (CTR). The system includes a monitoring component that watches the system for performance drift and triggers incremental training run once drift is detected. The NVIDIA Triton Inference Server is autoscaled based on a custom latency metric via two options: Kubernetes HPA & Karpenter OR Kubernetes HPA & Cluster Autoscaler. 
    ```bibtext
    @article{momoh2026continuous,
