@@ -20,6 +20,7 @@ This project presents a multistage multimodal recommender system built and deplo
 ```
 The system is operationalized with Kubeflow pipelines. One pipeline orchestrates the initial feature setup, training the models, and deploying the NVIDIA Triton Inference server. The second pipeline manages the periodic incremental fine-tuning of the query tower and the ranker.  
 ![The MLOps architecture](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Blank%20document%20-%20Page%209%20(11).png)
+Figure 2: MLOps architecture
 
 #### 2. *Deploying a Ranking only recommender system based on Deep Cross Network (DCN) with AUC based drift triggered fine-tuning.*
    **Medium Article**: https://mustaphaunubi.medium.com/building-a-recommender-system-with-continuous-retraining-on-amazon-eks-with-nvidia-merlin-hugectr-5b734c71bbc5  
