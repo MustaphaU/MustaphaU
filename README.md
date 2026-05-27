@@ -32,14 +32,14 @@ Figure 2: MLOps architecture
 
 In this project, the DCN based recommendation model is trained on a subset of the Criteo 1TB logs dataset to predict Click Through Rates (CTR). The system includes a monitoring component that watches the system for performance drift and triggers incremental training run once drift is detected. The NVIDIA Triton Inference Server is autoscaled based on a custom latency metric via two options: Kubernetes HPA & Karpenter OR Kubernetes HPA & Cluster Autoscaler. 
    ```bibtext
-   @article{momoh2026continuous,
-  title={Building a single-stage Recommender System with Continuous Retraining on Amazon EKS with NVIDIA Merlin, HugeCTR, NVIDIA Triton Inference Server, and Kubeflow Pipelines},
-  author={Momoh, Mustapha Unubi},
-  platform={Medium},
-  year={2026},
-  month={March},
-  url={https://mustaphaunubi.medium.com/building-a-recommender-system-with-continuous-retraining-on-amazon-eks-with-nvidia-merlin-hugectr-5b734c71bbc5}
-}
+  @article{momoh2026continuous,
+    title={Building a single-stage Recommender System with Continuous Retraining on Amazon EKS with NVIDIA Merlin, HugeCTR, NVIDIA Triton Inference Server, and Kubeflow Pipelines},
+    author={Momoh, Mustapha Unubi},
+    platform={Medium},
+    year={2026},
+    month={March},
+    url={https://mustaphaunubi.medium.com/building-a-recommender-system-with-continuous-retraining-on-amazon-eks-with-nvidia-merlin-hugectr-5b734c71bbc5}
+  }
    ```
 <!---
 ### About Me
