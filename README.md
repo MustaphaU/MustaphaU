@@ -1,6 +1,7 @@
 ### Technical Articles & Projects:
 #### 1. Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service
    **Towards Data Science Post**: https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations  
+   
    **Code**: https://github.com/MustaphaU/Multistage-Multimodal-Recommender-System-on-Amazon-EKS-with-NVIDIA-Merlin  
    
    ![Model Serving Pipeline](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Blank%20document%20-%20Page%2010%20(4).png)
@@ -20,7 +21,8 @@ The system is operationalized with Kubeflow pipelines. One pipeline orchestrates
 ![The MLOps architecture](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Blank%20document%20-%20Page%209%20(11).png)
 
 #### 2. Deploying a Ranking only recommender system based on Deep Cross Network (DCN) with AUC based drift triggered fine-tuning.
-   **Medium Article**: https://mustaphaunubi.medium.com/building-a-recommender-system-with-continuous-retraining-on-amazon-eks-with-nvidia-merlin-hugectr-5b734c71bbc5    
+   **Medium Article**: https://mustaphaunubi.medium.com/building-a-recommender-system-with-continuous-retraining-on-amazon-eks-with-nvidia-merlin-hugectr-5b734c71bbc5  
+   
    **Code**: https://github.com/MustaphaU/Merlin-RecSys-MLOps-on-AWS  
 
 In this project, the DCN based recommendation model is trained on a subset of the Criteo 1TB logs dataset to predict Click Through Rates (CTR). The system includes a monitoring component that watches the system for performance drift and triggers incremental training run once drift is detected. The NVIDIA Triton Inference Server is autoscaled based on a custom latency metric via two options: Kubernetes HPA & Karpenter OR Kubernetes HPA & Cluster Autoscaler. 
