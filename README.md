@@ -1,6 +1,6 @@
 ### Technical Articles & Projects:
 #### 1. *Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service*
-   **Towards Data Science Post**: https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations
+   **Towards Data Science Post**: https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations  
    **Medium article:** https://mustaphaunubi.medium.com/building-a-production-multistage-recommender-system-on-kubernetes-featuring-multimodal-embeddings-5bcd6d7bbf56?postPublishedType=repub
    
    **Code**: https://github.com/MustaphaU/Multistage-Multimodal-Recommender-System-on-Amazon-EKS-with-NVIDIA-Merlin  
