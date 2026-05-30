@@ -1,5 +1,6 @@
 Hi there,  
-My name is Mustapha MOMOH. I am working on retrieval systems aka search relevance, recommender systems, and ML infrastructure on cloud/Kubernetes.
+
+My name is Mustapha MOMOH. I completed my graduate studies in Systems Design Engineering from the University of Waterloo. I am working on retrieval systems aka search relevance, recommender systems, and Machine Learning infrastructure on cloud/Kubernetes.
 
 My other account is: https://github.com/TuringNPcomplete
 
