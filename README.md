@@ -1,3 +1,8 @@
+Hi there,
+My name is Mustapha MOMOH. I am working on retrieval systems aka search relevance, recommender systems, and ML infrastructure on cloud/Kubernetes.
+
+My other account is: https://github.com/TuringNPcomplete
+
 ### Technical Articles & Projects:
 #### 1. *Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service*
    **Towards Data Science Post**: https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations  
