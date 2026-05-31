@@ -30,7 +30,7 @@ The system is operationalized with Kubeflow pipelines. One pipeline orchestrates
 ![The MLOps architecture](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Blank%20document%20-%20Page%209%20(11).png)
 Figure 2: MLOps architecture
 
-#### 2. *Deploying a Ranking only recommender system based on Deep Cross Network (DCN) with AUC based drift triggered fine-tuning.*
+#### 2. *Deploying a Ranking only recommender system based on Deep and Cross Network (DCN).*
    **Medium Article**: https://mustaphaunubi.medium.com/building-a-recommender-system-with-continuous-retraining-on-amazon-eks-with-nvidia-merlin-hugectr-5b734c71bbc5  
    
    **Code**: https://github.com/MustaphaU/Merlin-RecSys-MLOps-on-AWS  
@@ -38,7 +38,7 @@ Figure 2: MLOps architecture
    ![MLOps](https://github.com/MustaphaU/MustaphaU/tree/main/Assets/arch___.png)
    Figure 1: Ads-ranking MLOps with monitoring component for drift detection and auto-retraining 
 
-In this project, the DCN based recommendation model is trained on a subset of the Criteo 1TB logs dataset to predict Click Through Rates (CTR). The system includes a monitoring component that watches the system for performance drift and triggers incremental training run once drift is detected. The NVIDIA Triton Inference Server is autoscaled based on a custom latency metric via two options: Kubernetes HPA & Karpenter OR Kubernetes HPA & Cluster Autoscaler. 
+In this project, the DCN based recommendation model is trained on a subset of the Criteo 1TB logs dataset to predict Click Through Rates (CTR). The system includes a monitoring component that watches the system for performance drift and triggers incremental training run once drift is detected. The Inference Server is autoscaled based on a custom latency metric via two options: Kubernetes HPA & Karpenter OR Kubernetes HPA & Cluster Autoscaler. 
    ```bibtext
   @article{momoh2026continuous,
     title={Building a single-stage Recommender System with Continuous Retraining on Amazon EKS with NVIDIA Merlin, HugeCTR, NVIDIA Triton Inference Server, and Kubeflow Pipelines},
