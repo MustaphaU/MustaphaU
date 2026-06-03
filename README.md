@@ -1,6 +1,6 @@
 Hi there,  
 
-My other account is: https://github.com/TuringNPcomplete
+I work on recommender systems, search relevance, and ML infrastructure (cloud/kubernetes). You can connect with me on (https://www.linkedin.com/in/mustaphaunubio)[LinkedIn] or by email at [mustaphaunubi@gmail.com](mailto:mustaphaunubi@gmail.com) or [mmomoh@uwaterloo.ca](mailto:mmomoh@uwaterloo.ca).
 
 ### Technical Articles & Projects:
 #### 1. *Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service*
