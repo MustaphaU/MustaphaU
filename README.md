@@ -10,7 +10,7 @@ I work on recommender systems, search relevance, and ML infrastructure (cloud/ku
    **Code**: https://github.com/MustaphaU/Multistage-Multimodal-Recommender-System-on-Amazon-EKS-with-NVIDIA-Merlin  
    **Short Demo**: https://www.youtube.com/watch?v=rwUwrISzDEQ
    
-   ![Model Serving Pipeline](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Blank%20document%20-%20Page%2010%20(4).png)
+   ![Model Serving Pipeline](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/model_serving_multistage.png?raw=true)
    Figure 1: The model serving pipeline   
    
 This project is a multistage multimodal recommender system built and deployed on Amazon Elastic Kubernetes Service. It features online and offline feature stores backed by Athena+S3 and ElastiCache for Valkey (Redis), respectively. User cold-start is managed via Feature masking, context-aware retrieval & ranking, and near real-time personalization with online feature updates. The system also ingests multimodal item features for improved  content based signal and item cold-starts. Recently interacted items are filtered using a Valkey (Redis) backed Bloom filter.
@@ -25,7 +25,7 @@ This project is a multistage multimodal recommender system built and deployed on
 }
 ```
 The system is operationalized with Kubeflow pipelines. One pipeline orchestrates the initial feature setup, training the models, and deploying the NVIDIA Triton Inference server. The second pipeline manages the periodic incremental fine-tuning of the query tower and the ranker.  
-![The MLOps architecture](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Blank%20document%20-%20Page%209%20(11).png)
+![The MLOps architecture](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/mulitstage_architecture.png?raw=true)
 Figure 2: MLOps architecture
 
 #### 2. *Deploying a Ranking only recommender system based on Deep and Cross Network (DCN).*
@@ -33,11 +33,19 @@ Figure 2: MLOps architecture
    
    **Code**: https://github.com/MustaphaU/Merlin-RecSys-MLOps-on-AWS  
 
-   ![MLOps](https://github.com/MustaphaU/MustaphaU/tree/main/Assets/arch___.png)
+   ![MLOps](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/arch___.png?raw=true)
    Figure 1: Ads-ranking MLOps with monitoring component for drift detection and auto-retraining 
 
 In this project, a DCN based recommendation model is trained on a subset of the Criteo 1TB logs to predict Ads Click Through Rates (CTR). The system includes a monitoring component that watches the system for performance drift based on AUC-ROC and triggers an incremental training run once drift is detected. There are two autoscaling options included in the project: Autoscaling with Kubernetes HPA + Karpenter AND Autoscaling with Kubernetes HPA + Cluster Autoscaler. 
-   ```bibtext
+
+<p align="center">
+  <img src="https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Karpenter_autoscaling.png?raw=true" width="49%" alt="Autoscaling with Kubernetes HPA and Karpenter" />
+  <img src="https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Cluster_Autoscaler.png?raw=true" width="49%" alt="Autoscaling with Kubernetes HPA and Cluster Autoscaler" />
+</p>
+
+Figure 2: The two autoscaling options — HPA + Karpenter (left) and HPA + Cluster Autoscaler (right)
+
+  ```bibtex
   @article{momoh2026continuous,
     title={Building a single-stage Recommender System with Continuous Retraining on Amazon EKS with NVIDIA Merlin, HugeCTR, NVIDIA Triton Inference Server, and Kubeflow Pipelines},
     author={Momoh, Mustapha Unubi},
@@ -46,7 +54,7 @@ In this project, a DCN based recommendation model is trained on a subset of the 
     month={March},
     url={https://mustaphaunubi.medium.com/building-a-recommender-system-with-continuous-retraining-on-amazon-eks-with-nvidia-merlin-hugectr-5b734c71bbc5}
   }
-   ```
+  ```
 <!---
 ### About Me
 ---
