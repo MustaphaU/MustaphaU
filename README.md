@@ -13,7 +13,7 @@ I work on recommender systems, search relevance, and ML infrastructure (cloud/ku
    ![Model Serving Pipeline](https://github.com/MustaphaU/MustaphaU/blob/main/Assets/Blank%20document%20-%20Page%2010%20(4).png)
    Figure 1: The model serving pipeline   
    
-This project presents a multistage multimodal recommender system built and deployed on Amazon Elastic Kubernetes Service. It features online and offline feature stores backed by Athena+S3 and Valkey (Redis) respectively. User cold-start is managed via Feature masking, context-aware retrieval & ranking, and near real-time personalization with online feature updates. The system also ingests multimodal item features which can improve the content based signal and item cold-starts. Recently interacted items are filtered using a Valkey (Redis) backed Bloom filter.
+This project is a multistage multimodal recommender system built and deployed on Amazon Elastic Kubernetes Service. It features online and offline feature stores backed by Athena+S3 and ElastiCache for Valkey (Redis), respectively. User cold-start is managed via Feature masking, context-aware retrieval & ranking, and near real-time personalization with online feature updates. The system also ingests multimodal item features for improved  content based signal and item cold-starts. Recently interacted items are filtered using a Valkey (Redis) backed Bloom filter.
   ```bibtex
 @article{momoh2026multistage,
   title={Deploying a Multistage Multimodal Recommender System on Amazon Elastic Kubernetes Service},
@@ -36,7 +36,7 @@ Figure 2: MLOps architecture
    ![MLOps](https://github.com/MustaphaU/MustaphaU/tree/main/Assets/arch___.png)
    Figure 1: Ads-ranking MLOps with monitoring component for drift detection and auto-retraining 
 
-In this project, the DCN based recommendation model is trained on a subset of the Criteo 1TB logs dataset to predict Click Through Rates (CTR). The system includes a monitoring component that watches the system for performance drift and triggers incremental training run once drift is detected. The Inference Server is autoscaled based on a custom latency metric via two options: Kubernetes HPA & Karpenter OR Kubernetes HPA & Cluster Autoscaler. 
+In this project, a DCN based recommendation model is trained on a subset of the Criteo 1TB logs to predict Ads Click Through Rates (CTR). The system includes a monitoring component that watches the system for performance drift based on AUC-ROC and triggers an incremental training run once drift is detected. There are two autoscaling options included in the project: Autoscaling with Kubernetes HPA + Karpenter AND Autoscaling with Kubernetes HPA + Cluster Autoscaler. 
    ```bibtext
   @article{momoh2026continuous,
     title={Building a single-stage Recommender System with Continuous Retraining on Amazon EKS with NVIDIA Merlin, HugeCTR, NVIDIA Triton Inference Server, and Kubeflow Pipelines},
