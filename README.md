@@ -83,7 +83,7 @@ In the past, I taught Python and data science with the Data Scientists Network (
 --->
 
 ### Contact:
-Email: [mustaphaunubi@gmail.com](mailto:mustaphaunubi@gmail.com) | [mmomoh@uwaterloo.ca](mailto:mmomoh@uwaterloo.ca)
+Email: [mustaphaunubi@gmail.com](mailto:mustaphaunubi@gmail.com) | [mmomoh@uwaterloo.ca](mailto:mmomoh@uwaterloo.ca)  
 Alt GitHub: https://github.com/TuringNPcomplete
 
 
