@@ -1,6 +1,12 @@
 Hi there,  
 
-I work on recommender systems, search relevance, and ML infrastructure (cloud/kubernetes). You can connect with me on [LinkedIn](https://www.linkedin.com/in/mustaphaunubi) or by email at [mustaphaunubi@gmail.com](mailto:mustaphaunubi@gmail.com) or [mmomoh@uwaterloo.ca](mailto:mmomoh@uwaterloo.ca).
+I work in Machine Learning. I specialize in:
+* MLOps & ML infrastructure -- deploying and managing ML systems on Kubernetes or Cloud (AWS, GCP, and Azure)
+* Search relevance and Recommender systems
+* ML-based Fraud Detection -- with Decision Trees, Graph Neural Networks (GNN), and Hybrid (Decision Trees + GNNS)
+* Generative AI.
+
+You can connect with me on [LinkedIn](https://www.linkedin.com/in/mustaphaunubi) or by email at [mustaphaunubi@gmail.com](mailto:mustaphaunubi@gmail.com) or [mmomoh@uwaterloo.ca](mailto:mmomoh@uwaterloo.ca).
 
 ### Technical Articles & Projects:
 #### 1. *Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service*
