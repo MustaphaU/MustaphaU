@@ -6,7 +6,7 @@ I work in Machine Learning. I specialize in:
 * ML-based Fraud Detection -- with Decision Trees, Graph Neural Networks (GNNs), and Hybrid solutions(Rulesets + Decision Trees + GNNS)
 * Generative AI.
 
-You can connect with me on [LinkedIn](https://www.linkedin.com/in/mustaphaunubi) or by email at [mustaphaunubi@gmail.com](mailto:mustaphaunubi@gmail.com) or [mmomoh@uwaterloo.ca](mailto:mmomoh@uwaterloo.ca).
+You can connect with me on [LinkedIn](https://www.linkedin.com/in/mustaphaunubi) or by email at [mustaphaunubi@gmail.com](mailto:mustaphaunubi@gmail.com).
 
 ### Technical Articles & Projects:
 #### 1. *Building and Deploying a Multistage Multimodal Recommender system on Amazon Elastic Kubernetes Service*
